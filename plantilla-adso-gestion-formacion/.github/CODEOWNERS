@@ -1,14 +1,14 @@
-#=========================================================================================
-#CODEOWNERS - Plantilla SENA
-#=========================================================================================
-#1. Regla General: El lider del proyecto o el instructor
-*                   @ORG-Try-1/LevinWolf01 @ORG-Try-1/deivi19
+#=====================================================================
+# CODEOWNERS - Plantilla SENA
+#=====================================================================
 
-#2. Codigo fuente y documentacion
-/src/               @ORG-Try-1/LevinWolf01 @ORG-Try-1/deivi19
-/docs/              @ORG-Try-1/LevinWolf01 @ORG-Try-1/deivi19
+# 1. Regla General: Usuarios individuales (sin el prefijo de la organización)
+*                  @LevinWolf01 @deivi19
 
-#3 Configuracion del flujo: SOLO el instructor:
-/.github/           @ORG-Try-1/deivi19
+# 2. Código fuente y documentación
+/src/              @LevinWolf01 @deivi19
+/docs/             @LevinWolf01 @deivi19
 
-/docs/rubrica-evaluacion.md @ORG-Try-1/deivi19
+# 3. Configuración del flujo: SOLO el instructor
+/.github/          @deivi19
+/docs/rubrica-evaluacion.md @deivi19
